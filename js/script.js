@@ -284,37 +284,6 @@ document.addEventListener('DOMContentLoaded', function () {
     // END | OnScroll Animation
 
 
-    // Benefits Counter Animation
-    const setItemsWidth = (items) => {
-        if (items.length > 0) {
-            items.forEach(item => {
-                item.style.maxWidth = 'unset';
-                item.style.minWidth = 'unset';
-
-                item.style.maxWidth = item.offsetWidth + 'px';
-                item.style.minWidth = item.offsetWidth + 'px';
-            })
-        }
-    }
-
-    const benefitsItems = document.querySelectorAll(".benefits-item__title");
-
-    setItemsWidth(benefitsItems);
-
-    gsap.from('.benefits-item__title span', {
-        textContent: 0,
-        duration: 3,
-        ease: "power4.out",
-        snap: { textContent: 1 },
-        stagger: 0.5,
-    });
-
-    window.addEventListener('resize', function (event) {
-        setItemsWidth(benefitsItems);
-    }, true);
-    // END | Benefits Counter Animation
-
-
     // Image Card Animation
 
     let mouseX = 0;
@@ -363,63 +332,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // END | Image Card Animation
 
-
-    // Benefits Animation
-    const benefitItem1 = document.querySelector('.benefits-item-1');
-    if (benefitItem1) {
-        benefitItem1.addEventListener('mouseenter', () => {
-            const tl = gsap.timeline({});
-            tl.to('.benefits-item-1 .benefits-item__title, .benefits-item-1 .benefits-item__text', { opacity: 0, duration: 0 })
-                .to('.benefits-item-1 .benefits-item-hover', { display: "flex", duration: 0 })
-                .fromTo('.benefits-item-1 .benefits-item-hover__text', { scale: 0 }, { scale: 1, duration: 0, delay: 0 })
-                .fromTo('.benefits-item-1 .benefits-item-hover-image__title', { scale: 0 }, { scale: 1, duration: 0.15, delay: 0.05 })
-        })
-        benefitItem1.addEventListener('mouseleave', () => {
-            const tl = gsap.timeline({});
-            tl.to('.benefits-item-1 .benefits-item__title, .benefits-item-1 .benefits-item__text', { opacity: 1, duration: 0 })
-                .to('.benefits-item-1 .benefits-item-hover', { display: "none", duration: 0 })
-        })
-    }
-
-    const benefitItem2 = document.querySelector('.benefits-item-2');
-    if (benefitItem2) {
-        benefitItem2.addEventListener('mouseenter', () => {
-            const tl = gsap.timeline({});
-            tl.to('.benefits-item-2 .benefits-item__title, .benefits-item-2 .benefits-item__text', { opacity: 0, duration: 0 })
-                .to('.benefits-item-2 .benefits-item-hover', { display: "flex", duration: 0 })
-                .fromTo('.benefits-item-2 .benefits-item-hover__text', { scale: 0 }, { scale: 1, duration: 0, delay: 0 })
-                .fromTo('.benefits-item-2 .benefits-item-hover-image-bg__item.item-1', { scale: 0, left: 0, bottom: 0 }, { scale: 1, left: -134, bottom: -72, duration: 0.05, delay: 0 })
-                .fromTo('.benefits-item-2 .benefits-item-hover-image-bg__item.item-2', { scale: 0, right: 0, bottom: 0 }, { scale: 1, right: -70, bottom: -60, duration: 0.05, delay: 0 })
-                .fromTo('.benefits-item-2 .benefits-item-hover-image__title', { scale: 0 }, { scale: 1, duration: 0.15, delay: 0.01 })
-        })
-        benefitItem2.addEventListener('mouseleave', () => {
-            const tl = gsap.timeline({});
-            tl.to('.benefits-item-2 .benefits-item__title, .benefits-item-2 .benefits-item__text', { opacity: 1, duration: 0 })
-                .to('.benefits-item-2 .benefits-item-hover', { display: "none", duration: 0 })
-        })
-    }
-
-    const benefitItem3 = document.querySelector('.benefits-item-3');
-    if (benefitItem3) {
-        benefitItem3.addEventListener('mouseenter', () => {
-            const tl = gsap.timeline({});
-            tl.to('.benefits-item-3 .benefits-item__title, .benefits-item-3 .benefits-item__text', { opacity: 0, duration: 0 })
-                .to('.benefits-item-3 .benefits-item-hover', { display: "flex", duration: 0 })
-                .fromTo('.benefits-item-3 .benefits-item-hover__text', { scale: 0 }, { scale: 1, duration: 0, delay: 0 })
-                .fromTo('.benefits-item-3 .benefits-item-hover-image-bg__item.item-1', { scale: 0, left: 50, top: 0 }, { scale: 1, left: 0, top: -72, duration: 0.05, delay: 0 })
-                .fromTo('.benefits-item-3 .benefits-item-hover-image-bg__item.item-4', { scale: 0, right: 50, bottom: 0 }, { scale: 1, right: 0, bottom: -62, duration: 0.05, delay: 0 })
-                .fromTo('.benefits-item-3 .benefits-item-hover-image-bg__item.item-2', { scale: 0, right: 50, top: 0 }, { scale: 1, right: 0, top: -72, duration: 0.05, delay: 0 })
-                .fromTo('.benefits-item-3 .benefits-item-hover-image-bg__item.item-3', { scale: 0, left: 50, bottom: 0 }, { scale: 1, left: 0, bottom: -82, duration: 0.05, delay: 0 })
-                .fromTo('.benefits-item-3 .benefits-item-hover-image__title', { scale: 0 }, { scale: 1, duration: 0.15, delay: 0 })
-        })
-        benefitItem3.addEventListener('mouseleave', () => {
-            const tl = gsap.timeline({});
-            tl.to('.benefits-item-3 .benefits-item__title, .benefits-item-3 .benefits-item__text', { opacity: 1, duration: 0 })
-                .to('.benefits-item-3 .benefits-item-hover', { display: "none", duration: 0 })
-        })
-    }
-
-    // END | Benefits Animation
 
     // FIAT Animation   
     const fiatTitleTrigger = document.querySelector('.fiat__title .title-trigger');
@@ -530,28 +442,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     }
 
-    const benefitsSection = document.querySelector('.benefits');
-
-    if (benefitsSection) {
-        const tl = gsap.timeline({});
-
-        tl.fromTo('.banner-image', { bottom: 0 }, { bottom: 70, delay: 0 }, 0);
-
-        tl.fromTo('.banner-bg__item', {}, { top: "+=40", delay: 0 }, 0);
-
-        tl.fromTo(benefitsSection, {
-            translateY: 0,
-        }, { translateY: -130, duration: 1 }, 0);
-
-        ScrollTrigger.create({
-            trigger: benefitsSection,
-            start: "top bottom",
-            end: "+=100%",
-            animation: tl,
-            scrub: 1,
-            pinSpacing: false
-        })
-    }
 
     const reasonsSection = document.querySelector('.reasons');
 
@@ -590,46 +480,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     }
 
-    const transitionSection = document.querySelector('.transition');
-
-    if (transitionSection) {
-
-        mm.add(
-            {
-                isDesktop: `(min-width: ${breakPoint + 1}px)`,
-                isMobile: `(max-width: ${breakPoint}px)`,
-                reduceMotion: "(prefers-reduced-motion: reduce)",
-            },
-            (context) => {
-                let { isDesktop, isMobile, reduceMotion } = context.conditions;
-
-                const tl = gsap.timeline({
-                    ease: 'power4.out'
-                });
-
-
-                tl.fromTo(transitionSection, { zIndex: 1 }, { zIndex: 2, duration: 0.01 }, 0)
-                tl.fromTo(
-                    '#image',
-                    { scale: 1, translateY: 0 },
-                    { scale: isDesktop ? "40" : "50", translateY: "100vh" },
-                    0)
-
-                ScrollTrigger.create({
-                    trigger: '#image',
-                    start: isDesktop ? "220% bottom" : "220% bottom",
-                    end: "",
-                    animation: tl,
-                    scrub: 1,
-                    pinSpacing: false,
-                    // end: () => `+=${document.querySelector(".manual-bg").offsetHeight}`,
-
-                })
-
-                return () => { };
-            }
-        )
-    }
 
     if (!isMobile.any()) {
         const sectorsSection = document.querySelector('.sectors');
@@ -697,23 +547,7 @@ document.addEventListener('DOMContentLoaded', function () {
             scrub: 1,
             pinSpacing: false,
         })
-    }
-
-    const stepsSection = document.querySelector('.steps');
-    if (stepsSection) {
-        const tl = gsap.timeline({ ease: 'none' });
-
-        tl.fromTo('.steps-right-bg__mask', { height: "100%" }, { height: "0%" }, 0);
-
-        ScrollTrigger.create({
-            trigger: '.steps-right-bg__mask',
-            start: "100px 80%",
-            end: "120% bottom",
-            animation: tl,
-            scrub: 1,
-            pinSpacing: false,
-        })
-    }
+    }    
     //  END SCROLL TRIGGER ANIMATIONS
 
     // Footer
@@ -722,11 +556,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (footer) {
         footer.style.height = footerWrapper.offsetHeight + 'px';
-
-        window.addEventListener('resize', function (event) {
-            footer.style.height = footerWrapper.offsetHeight + 'px';
-            setItemsWidth(benefitsItems);
-        }, true);
 
         const tl = gsap.timeline({});
 
@@ -949,6 +778,37 @@ document.addEventListener('DOMContentLoaded', function () {
             document.querySelector('.menu__toggle').classList.remove('_active-menu');
             document.querySelector('.menu__box').classList.remove('_active-menu');
         });
+    });
+
+    document.querySelectorAll('.lang__selected').forEach(item => {
+        item.addEventListener('click', function (e) {
+            document.querySelectorAll('.lang__block').forEach(element => {
+                element.classList.toggle('active');
+            })
+        });
+    })
+
+    let reasonsSwiper = new Swiper(".reasons__slider", {
+        loop: true,
+        spaceBetween: 18,
+        slidesPerView: 2.7,
+        allowTouchMove: true,
+        autoplay: {
+            delay: 1,
+            disableOnInteraction: true
+        },
+        speed: 4000,
+        navigation: {
+            nextEl: ".reasons__slider-prev",
+        },
+        breakpoints: {
+            768: {
+                slidesPerView: 3.7,
+            },
+            999: {
+                slidesPerView: 4.7,
+            },
+        },
     });
 
 });

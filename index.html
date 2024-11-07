@@ -16,7 +16,10 @@
         rel="stylesheet">
 
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" /> -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css" /> -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 
     <link rel="stylesheet" href="./css/style.css?ver=1.0.1">
 
@@ -57,22 +60,22 @@
                             </li>
                             <li>
                                 <a href="#" class="menu__item shake" data-goto=".sectors">
-                                    Sectors
+                                    Features
                                 </a>
                             </li>
                             <li>
                                 <a href="#" class="menu__item shake" data-goto=".fiat">
-                                    Transactions
+                                    Download
                                 </a>
                             </li>
                             <li>
                                 <a href="#" class="menu__item shake" data-goto=".tools">
-                                    Integrate
+                                    Referral Program 
                                 </a>
                             </li>
                             <li>
                                 <a href="./contacts.html" class="menu__item shake">
-                                    Contacts
+                                    FAQ
                                 </a>
                             </li>
                         </ul>
@@ -81,7 +84,23 @@
                     </div>
                 </nav>
 
-                <a href="https://app.deffio.com" target="_blank" class="header__button btn btn-blue _desk shake">Dashboard</a>
+                
+
+                <div class="header__end">
+                    <a href="https://app.deffio.com" target="_blank" class="header__button btn btn-blue _desk shake">Download</a>
+                    <div class="header__end lang">
+                        <div class="lang__selected">
+                            <p class="lang__name">En</p>
+                            <span></span>
+                        </div>                        
+                        <div class="lang__block">
+                            <a href="#">Ua</a>
+                        </div>
+                    </div>
+                    <div class="header__end-toggle">
+                        <span></span>
+                    </div>
+                </div>
 
                 <div class="menu__toggle _desk">
                     <span></span>
@@ -90,977 +109,639 @@
         </div>
     </header>
 
-    <section class="banner">
-        <div class="_container_l wrap-1">
-
-            <div class="banner-bg">
-                <svg class="banner-bg__item item-1 animation rotate-reverse" width="44" height="44" viewBox="0 0 44 44"
-                    fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="21" width="2.65161" height="43.751" fill="black" />
-                    <rect y="21" width="43.75" height="2.65" fill="black" />
-                </svg>
-                <svg class="banner-bg__item item-2 animation rotate" width="44" height="44" viewBox="0 0 44 44"
-                    fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="20.6719" y="0.162109" width="2.65161" height="43.751" fill="black" />
-                    <rect x="43.8672" y="20.7129" width="2.65161" height="43.751" transform="rotate(90 43.8672 20.7129)"
-                        fill="black" />
-                </svg>
-                <svg class="banner-bg__item item-3 animation unfold" width="77" height="76" viewBox="0 0 77 76"
-                    fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M38.1629 19.665H19.7188V38.1092H38.1629V19.665Z" stroke="black" stroke-width="2"
-                        stroke-miterlimit="10" />
-                    <path d="M56.6083 1.2002H38.1641V19.6444H56.6083V1.2002Z" stroke="black" stroke-width="2"
-                        stroke-miterlimit="10" />
-                    <path d="M75.0535 19.665H56.6094V38.1092H75.0535V19.665Z" stroke="black" stroke-width="2"
-                        stroke-miterlimit="10" />
-                    <path d="M19.7176 38.1104H1.27344V56.5545H19.7176V38.1104Z" stroke="black" stroke-width="2"
-                        stroke-miterlimit="10" />
-                    <path d="M38.1629 56.5557H19.7188V74.9999H38.1629V56.5557Z" stroke="black" stroke-width="2"
-                        stroke-miterlimit="10" />
-                    <path d="M56.6083 38.1104H38.1641V56.5545H56.6083V38.1104Z" stroke="black" stroke-width="2"
-                        stroke-miterlimit="10" />
-                </svg>
-            </div>
-
-            <div class="banner__wrapper">
-                <div class="banner__info">
-
-                    <div class="banner-socials">
-                        <a href="https://www.linkedin.com/company/deffio/"
-                            class="banner-socials__item shake shake-on-scroll" target="_blank"
-                            rel="nofollow">Linkedin</a>
-                        <a href="#" class="banner-socials__item shake shake-on-scroll" target="_blank"
-                            rel="nofollow">Telegram</a>
-                        <a href="https://x.com/DeffioCP" class="banner-socials__item" target="_blank"
-                            rel="nofollow">X</a>
-                    </div>
-
-                    <h1 class="banner__title h1 animated-title">
-                        <strong>
-                            <span>Say</span>
-                            <span>Hello</span>
-                        </strong>
-                        <span>to</span>
-                        <span>Crypto</span>
-                        <span>Payments</span>
-                    </h1>
-
-                    <div class="banner__text">
-                        <p>Don't Keep Clients Waiting</p>
-                    </div>
-
-                    <button class="banner__button btn shake open-popup__order">Book a call</button>
-                </div>
-            </div>
-
-            <div class="banner-image">
-                <div class="banner-image__wrapper">
-                    <img src="./assets/banner.png" alt="banner">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="benefits">
-        <div class="benefits__wrapper">
-            <div class="benefits__title wow fadeInUp"><span>Change before</span> you have to survive</div>
-
-            <div class="benefits__list">
-                <div class="benefits-item benefits-item-1 wow fadeInUp">
-
-                    <svg class="benefits-item__bg item-2 animation rotate" width="44" height="44" viewBox="0 0 44 44"
+    <main class="main">
+        <section class="banner">
+            <div class="_container_l wrap-1">
+    
+                <div class="banner-bg">
+                    <svg class="banner-bg__item item-1 animation rotate-reverse" width="44" height="44" viewBox="0 0 44 44"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="21" width="2.65161" height="43.751" fill="black" />
+                        <rect y="21" width="43.75" height="2.65" fill="black" />
+                    </svg>
+                    <svg class="banner-bg__item item-2 animation rotate" width="44" height="44" viewBox="0 0 44 44"
                         fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect x="20.6719" y="0.162109" width="2.65161" height="43.751" fill="black" />
-                        <rect x="43.8672" y="20.7129" width="2.65161" height="43.751"
-                            transform="rotate(90 43.8672 20.7129)" fill="black" />
+                        <rect x="43.8672" y="20.7129" width="2.65161" height="43.751" transform="rotate(90 43.8672 20.7129)"
+                            fill="black" />
                     </svg>
-
-                    <div class="benefits-item__title">
-                        <span>420</span>M
-                    </div>
-                    <div class="benefits-item__text">People use crypto in 2024</div>
-
-                    <div class="benefits-item-hover">
-                        <div class="benefits-item-hover-image">
-                            <div class="benefits-item-hover-image-bg">
-                                <img class="benefits-item-hover-image-bg__main"
-                                    src="./assets/benefits/benefits-1-bg.svg" alt="">
-                            </div>
-                            <div class="benefits-item-hover-image__title">
-                                <img src="./assets/benefits/benefits-1-title.svg" alt="">
-                            </div>
+                    <svg class="banner-bg__item item-3 animation unfold" width="77" height="76" viewBox="0 0 77 76"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M38.1629 19.665H19.7188V38.1092H38.1629V19.665Z" stroke="black" stroke-width="2"
+                            stroke-miterlimit="10" />
+                        <path d="M56.6083 1.2002H38.1641V19.6444H56.6083V1.2002Z" stroke="black" stroke-width="2"
+                            stroke-miterlimit="10" />
+                        <path d="M75.0535 19.665H56.6094V38.1092H75.0535V19.665Z" stroke="black" stroke-width="2"
+                            stroke-miterlimit="10" />
+                        <path d="M19.7176 38.1104H1.27344V56.5545H19.7176V38.1104Z" stroke="black" stroke-width="2"
+                            stroke-miterlimit="10" />
+                        <path d="M38.1629 56.5557H19.7188V74.9999H38.1629V56.5557Z" stroke="black" stroke-width="2"
+                            stroke-miterlimit="10" />
+                        <path d="M56.6083 38.1104H38.1641V56.5545H56.6083V38.1104Z" stroke="black" stroke-width="2"
+                            stroke-miterlimit="10" />
+                    </svg>
+                </div>
+    
+                <div class="banner__wrapper">
+                    <div class="banner__info">
+    
+                        <div class="banner-socials">
+                            <a href="https://www.linkedin.com/company/deffio/"
+                                class="banner-socials__item shake shake-on-scroll" target="_blank"
+                                rel="nofollow">Linkedin</a>
+                            <a href="#" class="banner-socials__item shake shake-on-scroll" target="_blank"
+                                rel="nofollow">Telegram</a>
+                            <a href="https://x.com/DeffioCP" class="banner-socials__item" target="_blank"
+                                rel="nofollow">X</a>
                         </div>
-                        <p class="benefits-item-hover__text">
-                            With an estimated 420 million owners of cryptocurrency globally, businesses who offer
-                            cryptocurrencies as a payment method can reach new markets and demographics, especially
-                            where traditional banking is hard to access.
-                        </p>
-                    </div>
-                </div>
-                <div class="benefits-item icon wow zoomIn animation rotate-reverse">
-                    <img src="./assets/bg-items/bg-item-3.svg" alt="bg-icon">
-                </div>
-                <div class="benefits-item benefits-item-2 wow fadeInUp">
-                    <div class="benefits-item__title">
-                        <span>17</span>%
-                    </div>
-                    <div class="benefits-item__text">Crypto payment volumes increase YOY</div>
-
-                    <div class="benefits-item-hover">
-                        <div class="benefits-item-hover-image">
-                            <div class="benefits-item-hover-image-bg">
-                                <img class="benefits-item-hover-image-bg__item item-1"
-                                    src="./assets/benefits/benefits-2-bg-item-1.svg" alt="">
-                                <img class="benefits-item-hover-image-bg__item item-2"
-                                    src="./assets/benefits/benefits-2-bg-item-2.svg" alt="">
-                                <img class="benefits-item-hover-image-bg__main"
-                                    src="./assets/benefits/benefits-2-bg.svg" alt="">
-                            </div>
-                            <div class="benefits-item-hover-image__title">
-                                <img src="./assets/benefits/benefits-2-title.svg" alt="">
-                            </div>
+    
+                        <h1 class="banner__title h1 animated-title">
+                            <strong>
+                                <span>Wallet</span>
+                            </strong>
+                            <span>for</span>
+                            <span>your</span>
+                            <span>crypto</span>
+                        </h1>
+    
+                        <div class="banner__text">
+                            <p>Everything You Need for a Seamless Crypto Experience</p>
                         </div>
-                        <p class="benefits-item-hover__text">
-                            Cryptocurrency payments are forecast to grow at a compound annual growth rate (CAGR) of
-                            nearly 17 percent between 2022 and 2029. One of the biggest challenges for this market is
-                            regulation.
-                        </p>
+    
+                        <button class="banner__button btn shake open-popup__order">download app</button>
                     </div>
                 </div>
-                <div class="benefits-item icon wow zoomIn animation rotate">
-                    <img src="./assets/bg-items/bg-item-3.svg" alt="bg-icon">
-                </div>
-                <div class="benefits-item benefits-item-3 wow fadeInUp">
-                    <div class="benefits-item__title">
-                        <span>1</span>M
+    
+                <div class="banner-image wow fadeInUp">
+                    <div class="banner-image__wrapper">
+                        <img src="./assets/banner.svg" alt="banner">
                     </div>
-                    <div class="benefits-item__text">Merchants choose crypto payment solutions</div>
-
-                    <div class="benefits-item-hover">
-                        <div class="benefits-item-hover-image">
-                            <div class="benefits-item-hover-image-bg">
-                                <img class="benefits-item-hover-image-bg__item item-1"
-                                    src="./assets/benefits/benefits-3-bg-item-1.svg" alt="">
-                                <img class="benefits-item-hover-image-bg__item item-2"
-                                    src="./assets/benefits/benefits-3-bg-item-2.svg" alt="">
-                                <img class="benefits-item-hover-image-bg__item item-3"
-                                    src="./assets/benefits/benefits-3-bg-item-3.svg" alt="">
-                                <img class="benefits-item-hover-image-bg__item item-4"
-                                    src="./assets/benefits/benefits-3-bg-item-4.svg" alt="">
-                                <img class="benefits-item-hover-image-bg__main"
-                                    src="./assets/benefits/benefits-3-bg.svg" alt="">
-                            </div>
-                            <div class="benefits-item-hover-image__title">
-                                <img src="./assets/benefits/benefits-3-title.svg" alt="">
-                            </div>
-                        </div>
-                        <div class="benefits-item-hover__text">
-                            <p>
-                                <br />
-                                Two-thirds of cryptocurrency owners and more than half of nonowners agree that there are
-                                not enough
-                                merchants that accept cryptocurrency for payments.
-                            </p>
+                </div>
+            </div>
+        </section>
+    
+        <section id="reasons" class="reasons">
+            <div class="reasons__wrapper">
+                <div class="reasons__header">
+                    <h2 class="reasons__title h2 wow fadeInUp">7 Reasons to Choose <span>deffio crypto wallet</span></h2>
+                    <div class="reasons__subtitle wow fadeInUp">24/7 Customer Support</div>
+                </div>
+    
+                <div id="reasons-list" class="reasons__list animated-list">
+    
+                    <div class="reasons-item wow zoomIn">
+                        <img class="reasons-item__bg i-tl" src="./assets/bg-items/bg-item-4.svg" alt="reasons-star">
+                        <img class="reasons-item__bg i-tr _mob" src="./assets/bg-items/bg-item-4.svg" alt="reasons-star">
+    
+                        <div class="reasons-item__wrapper">
+                            <h3 class="reasons-item__title">
+                                <img src="./assets/reasons/reasons-1.svg" alt="">
+                                <p>payment <br>card</p>
+                            </h3>
+    
+                            <p class="reasons-item__text">A payment card linked to a crypto wallet enables effortless spending of digital assets for everyday transactions, merging the convenience of traditional payments with the cutting-edge benefits of cryptocurrency.</p>
                         </div>
                     </div>
-                </div>
-            </div>
-
-            <button class="benefits__button shake shake-on-scroll open-popup__order">Contact Sales</button>
-
-            <div class="benefits__fi animation">
-                <svg width="33" height="40" viewBox="0 0 33 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M13.0159 19.6002H12.9859V39.1302H3.32594V19.6002H0.335938V11.6002H3.32594V11.3502C3.32594 7.82016 4.35594 5.12016 6.41594 3.26016C8.50594 1.36016 11.5059 0.410156 15.3959 0.410156C16.1759 0.410156 16.7859 0.430156 17.2159 0.460156V8.65016C16.9559 8.62016 16.5959 8.60016 16.1359 8.60016C15.0859 8.60016 14.3159 8.85016 13.8259 9.34016C13.3359 9.80016 13.0559 10.5002 12.9959 11.5402H13.0259H32.7859V11.6002H32.8259V39.1202H23.2059V19.5802H13.0259V19.5902L13.0159 19.6002Z"
-                        fill="#7F9CAB" />
-                    <path class="bounce"
-                        d="M27.9975 9.62C30.654 9.62 32.8075 7.46649 32.8075 4.81C32.8075 2.15351 30.654 0 27.9975 0C25.341 0 23.1875 2.15351 23.1875 4.81C23.1875 7.46649 25.341 9.62 27.9975 9.62Z"
-                        fill="#7F9CAB" />
-                </svg>
-            </div>
-
-        </div>
-    </section>
-
-    <section id="reasons" class="reasons">
-        <div class="reasons__wrapper">
-            <div class="reasons__header">
-                <h2 class="reasons__title h2 wow fadeInUp">7 Reasons Companies <span>Accept Cryptocurrency</span></h2>
-                <div class="reasons__subtitle wow fadeInUp">24/7 Customer Support</div>
-
-                <svg class="reasons-bg-item item-1 animation rotate-reverse" width="44" height="44" viewBox="0 0 44 44"
-                    fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="21" width="2.65161" height="43.751" fill="black" />
-                    <rect y="21" width="43.75" height="2.65" fill="black" />
-                </svg>
-            </div>
-
-            <div id="reasons-list" class="reasons__list animated-list">
-
-                <div class="reasons-item wow zoomIn">
-                    <img class="reasons-item__bg i-tl" src="./assets/bg-items/bg-item-4.svg" alt="reasons-star">
-                    <img class="reasons-item__bg i-tr _mob" src="./assets/bg-items/bg-item-4.svg" alt="reasons-star">
-
-                    <div class="reasons-item__wrapper">
-                        <h3 class="reasons-item__title">
-                            <img src="./assets/reasons/reasons-1.svg" alt="">
-                            <p>EU Licensed <br />Crypto Payments</p>
-                        </h3>
-
-                        <p class="reasons-item__text">Our VASP Licence allows to provide settelments and exchange
-                            services for cryptocurrencies. Legal entity is based in Lithuania – one of the most
-                            favourable jurisdictions for crypto. </p>
-                    </div>
-                </div>
-
-                <div class="reasons-item wow zoomIn">
-                    <img class="reasons-item__bg i-tr" src="./assets/bg-items/bg-item-4.svg" alt="reasons-star">
-
-                    <div class="reasons-item__wrapper">
-                        <h3 class="reasons-item__title">
-                            <img src="./assets/reasons/reasons-2.svg" alt="">
-                            <p>No <br />Chargebacks</p>
-                        </h3>
-
-                        <p class="reasons-item__text">Crypto transactions are not subject to chargebacks. Any payment
-                            made
-                            cannot be reversed or disputed, thus providing businesses with greater safety as well as
-                            lessening the chances of fraudulence or conflicts.</p>
-                    </div>
-                </div>
-
-                <div class="reasons-item wow zoomIn">
-                    <img class="reasons-item__bg i-tr" src="./assets/bg-items/bg-item-4.svg" alt="reasons-star">
-
-                    <div class="reasons-item__wrapper">
-                        <h3 class="reasons-item__title">
-                            <img src="./assets/reasons/reasons-3.svg" alt="">
-                            <p>Low Fees</p>
-                        </h3>
-
-                        <p class="reasons-item__text">Elimination of intermediaries results in lower transaction and
-                            conversion fees.
-                            Charged fees is several times smaller than what traditional means of payment charge,
-                            especially
-                            for international transactions.</p>
-                    </div>
-                </div>
-
-                <div class="reasons-item wow zoomIn">
-                    <div class="reasons-item__wrapper">
-                        <h3 class="reasons-item__title">
-                            <img src="./assets/reasons/reasons-4.svg" alt="">
-                            <p>Crypto <br />Conversion</p>
-                        </h3>
-
-                        <p class="reasons-item__text">Avoid headache of dealing with fiat currency exchange rates and
-                            convert your crypto payments to FIAT automatically or initiate an exchange manually</p>
-                    </div>
-                </div>
-
-                <div class="reasons-item wow zoomIn">
-                    <img class="reasons-item__bg i-tl" src="./assets/bg-items/bg-item-4.svg" alt="reasons-star">
-                    <!-- <img class="reasons-item__bg i-tr" src="./assets/bg-items/bg-item-4.svg" alt="reasons-star"> -->
-
-                    <div class="reasons-item__wrapper">
-                        <h3 class="reasons-item__title">
-                            <img src="./assets/reasons/reasons-6.svg" alt="">
-                            <p>Privacy</p>
-                        </h3>
-
-                        <p class="reasons-item__text">Crypto payments offer enhanced security and privacy compared to
-                            traditional payment methods.</p>
-                    </div>
-                </div>
-
-                <div class="reasons-item wow zoomIn">
-                    <img class="reasons-item__bg i-tr" src="./assets/bg-items/bg-item-4.svg" alt="reasons-star">
-
-                    <div class="reasons-item__wrapper">
-                        <h3 class="reasons-item__title">
-                            <img src="./assets/reasons/reasons-5.svg" alt="">
-                            <p>Global <br />Payments</p>
-                        </h3>
-
-                        <p class="reasons-item__text">Cryptos have no borders, and neither do businesses that use them.
-                            Location does not impact the speed or cost of crypto transactions in any way. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="transition">
-            <div id="image">
-                <img src="./assets/bg-items/bg-item-4.svg" />
-            </div>
-        </div>
-    </section>
-
-    <section id="sectors" class="sectors">
-        <div class="sectors-item__image">
-            <img src="./assets/sectors/sectors-1.png" alt="sector">
-        </div>
-        <div class="sectors-item__image">
-            <img src="./assets/sectors/sectors-2.png" alt="sector">
-        </div>
-        <div class="sectors-item__image">
-            <img src="./assets/sectors/sectors-3.png" alt="sector">
-        </div>
-        <div class="sectors-item__image">
-            <img src="./assets/sectors/sectors-4.png" alt="sector">
-        </div>
-        <div class="sectors-item__image">
-            <img src="./assets/sectors/sectors-5.png" alt="sector">
-        </div>
-        <div class="sectors-item__image">
-            <img src="./assets/sectors/sectors-6.png" alt="sector">
-        </div>
-        <div class="sectors-item__image">
-            <img src="./assets/sectors/sectors-7.png" alt="sector">
-        </div>
-        <div class="sectors-item__image">
-            <img src="./assets/sectors/sectors-8.png" alt="sector">
-        </div>
-        <div class="sectors-item__image">
-            <img src="./assets/sectors/sectors-9.png" alt="sector">
-        </div>
-
-        <div class="_container wrap-1">
-            <div class="sectors__wrapper">
-                <h2 class="sectors__title h2 wow fadeInUp"><span>Business Sectors</span> Embracing Cryptocurrency</h2>
-
-                <div class="sectors__list">
-
-                    <div class="sectors-item wow fadeInUp">
-                        <h3 class="sectors-item__title">Gaming</h3>
-
-                        <p class="sectors-item__text">The gaming industry is evolving with the rise of cryptocurrency,
-                            revolutionizing both gaming and the global economy. As a form of digital money,
-                            cryptocurrency is transforming how we pay, play, and engage in the digital world.
-
-                            For blockchain gaming, the market size is valued at over $3 billion in 2024 and is projected
-                            to grow to between $65 to $90 billion by 2030.</p>
-
-                        <!-- <div class="sectors-item__image">
-                            <img src="./assets/sectors/sectors-1.png" alt="sector">
-                        </div> -->
-                    </div>
-
-                    <div class="sectors-item wow fadeInUp">
-                        <h3 class="sectors-item__title">Travel</h3>
-
-                        <p class="sectors-item__text">Cryptocurrency was once a niche market, but it is now widely
-                            accepted and adopted while traveling. You can be paid in crypto for the room, buy a ticket
-                            or rent an apartment with crypto, and of course book a whole trip.</p>
-
-                        <!-- <div class="sectors-item__image">
-                            <img src="./assets/sectors/sectors-1.png" alt="sector">
-                        </div> -->
-                    </div>
-
-                    <div class="sectors-item wow fadeInUp">
-                        <h3 class="sectors-item__title">E-commerce</h3>
-
-                        <p class="sectors-item__text">The rise of cryptocurrency in the e-commerce industry signifies
-                            not just a trend but a transformation in financial transactions and user experiences.
-                        </p>
-
-                        <!-- <div class="sectors-item__image">
-                            <img src="./assets/sectors/sectors-1.png" alt="sector">
-                        </div> -->
-                    </div>
-
-                    <div class="sectors-item wow fadeInUp">
-                        <h3 class="sectors-item__title">Tickets</h3>
-
-                        <p class="sectors-item__text">The ticketing industry integrates cryptocurrency processing to offer faster, more secure transactions with lower fees and enhanced customer satisfaction.
-                            Blockchain technology holds promise for addressing industry challenges, yet other solutions also offer potential for transparent ticketing.</p>
-
-                        <!-- <div class="sectors-item__image">
-                            <img src="./assets/sectors/sectors-1.png" alt="sector">
-                        </div> -->
-                    </div>
-
-                    <div class="sectors-item wow fadeInUp">
-                        <h3 class="sectors-item__title">Coaching and training</h3>
-
-                        <p class="sectors-item__text">Millennials and Gen Z are increasingly opting for new payment
-                            methods that are simple, secure, and fast. As a result, cryptocurrencies are rapidly gaining
-                            popularity worldwide, especially for online coaching and training courses.
-                        </p>
-
-                        <!-- <div class="sectors-item__image">
-                            <img src="./assets/sectors/sectors-1.png" alt="sector">
-                        </div> -->
-                    </div>
-
-                    <div class="sectors-item wow fadeInUp">
-                        <h3 class="sectors-item__title">Booking</h3>
-
-                        <p class="sectors-item__text">The success of companies adopting cryptocurrency inspires the
-                            broader booking industry. These pioneers have overcome traditional banking hurdles and set a
-                            precedent for others to embrace digital currencies' transformative potential.</p>
-
-                        <!-- <div class="sectors-item__image">
-                            <img src="./assets/sectors/sectors-1.png" alt="sector">
-                        </div> -->
-                    </div>
-
-                    <div class="sectors-item wow fadeInUp">
-                        <h3 class="sectors-item__title">Markerplaces</h3>
-
-                        <p class="sectors-item__text">Marketplaces are integrating cryptocurrency processing to offer
-                            faster, more secure transactions with lower fees. Crypto processing simplify the process for
-                            both merchants and buyers, enhancing global accessibility and attracting tech-savvy
-                            customers.</p>
-
-                        <!-- <div class="sectors-item__image">
-                            <img src="./assets/sectors/sectors-1.png" alt="sector">
-                        </div> -->
-                    </div>
-
-                    <div class="sectors-item wow fadeInUp">
-                        <h3 class="sectors-item__title">LUXURY GOODS</h3>
-
-                        <p class="sectors-item__text">Major luxury brands like Gucci, Ferrari, and Balenciaga starting
-                            to accept cryptocurrencies online and in-stores through gateways that convert digital
-                            payments into fiat currency for them.</p>
-
-                        <!-- <div class="sectors-item__image">
-                            <img src="./assets/sectors/sectors-1.png" alt="sector">
-                        </div> -->
-                    </div>
-
-                    <div class="sectors-item wow fadeInUp">
-                        <h3 class="sectors-item__title">regulated gambling</h3>
-
-                        <p class="sectors-item__text">As gambling companies increasingly recognize the potential of
-                            digital currencies, the synergy between crypto and gambling is set to redefine the
-                            landscape, offering a glimpse into the future of entertainment.</p>
-
-                        <!-- <div class="sectors-item__image">
-                            <img src="./assets/sectors/sectors-1.png" alt="sector">
-                        </div> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="manual">
-        <div class="_container wrap-1">
-
-            <div class="manual__wrapper">
-                <div class="manual__main">
-                    <div class="manual-bg">
-                        <div class="manual-bg__wrapper">
-                            <img src="./assets/manual/manual-bg.png" alt="manual-bg">
+    
+                    <div class="reasons-item wow zoomIn">
+                        <img class="reasons-item__bg i-tr" src="./assets/bg-items/bg-item-4.svg" alt="reasons-star">
+    
+                        <div class="reasons-item__wrapper">
+                            <h3 class="reasons-item__title">
+                                <img src="./assets/reasons/reasons-2.svg" alt="">
+                                <p>Non <br>custodial</p>
+                            </h3>
+    
+                            <p class="reasons-item__text">A non-custodial crypto wallet gives users full control over their funds and private keys, boosting security and privacy by eliminating the need for third-party involvement.</p>
                         </div>
                     </div>
-
-                    <div class="manual-icons _section-bg">
-
-                        <svg class="manual-icons__item item-1 animation rotate" width="35" height="32"
-                            viewBox="0 0 35 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect x="34.1484" y="14.6318" width="1.88899" height="33.1775"
-                                transform="rotate(90 34.1484 14.6318)" fill="black" />
-                            <rect x="18.5625" y="31.1611" width="2.01079" height="31.168"
-                                transform="rotate(-180 18.5625 31.1611)" fill="black" />
+    
+                    <div class="reasons-item wow zoomIn">
+                        <img class="reasons-item__bg i-tr" src="./assets/bg-items/bg-item-4.svg" alt="reasons-star">
+    
+                        <div class="reasons-item__wrapper">
+                            <h3 class="reasons-item__title">
+                                <img src="./assets/reasons/reasons-3.svg" alt="">
+                                <p>on-ramp-<br>off-ramp</p>
+                            </h3>
+    
+                            <p class="reasons-item__text">Buy and sell crypto using any local fiat currency (such as USD, EUR, BRL, GBP).</p>
+                        </div>
+                    </div>
+    
+                    <div class="reasons-item wow zoomIn">
+                        <div class="reasons-item__wrapper">
+                            <h3 class="reasons-item__title">
+                                <img src="./assets/reasons/reasons-4.svg" alt="">
+                                <p>anonymous</p>
+                            </h3>
+    
+                            <p class="reasons-item__text">An anonymous crypto wallet protects user privacy by enabling secure transactions without revealing personal information, ensuring financial freedom and confidentiality.</p>
+                        </div>
+                    </div>
+    
+                    <div class="reasons-item wow zoomIn">
+                        <img class="reasons-item__bg i-tl" src="./assets/bg-items/bg-item-4.svg" alt="reasons-star">
+                        <img class="reasons-item__bg i-tr" src="./assets/bg-items/bg-item-4.svg" alt="reasons-star">
+    
+                        <div class="reasons-item__wrapper">
+                            <h3 class="reasons-item__title">
+                                <img src="./assets/reasons/reasons-5.svg" alt="">
+                                <p>Multichain</p>
+                            </h3>
+    
+                            <p class="reasons-item__text">Deffio is a multi-chain Web3 wallet that enables users to securely store and manage multiple cryptocurrencies across various blockchains.</p>
+                        </div>
+                    </div>
+    
+                    <div class="reasons-item wow zoomIn">
+                        <img class="reasons-item__bg i-tr" src="./assets/bg-items/bg-item-4.svg" alt="reasons-star">
+    
+                        <div class="reasons-item__wrapper">
+                            <h3 class="reasons-item__title">
+                                <img src="./assets/reasons/reasons-6.svg" alt="">
+                                <p>Risk Score <br>Monitoring</p>
+                            </h3>
+    
+                            <p class="reasons-item__text">We use best practices in transaction monitoring and crypto AML to ensure the security of our customers.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="reasons__slider-content wow fadeInUp">
+                    <div class="reasons__slider-prev">
+                        <span>‹</span>
+                    </div>
+                    <div class="reasons__slider">
+                        <div class="swiper-wrapper">
+                            <div class="reasons__slider-slide swiper-slide">
+                                <p class="reasons__slider-name">BCH Bitcoin</p>
+                                <div class="reasons__slider-block">
+                                    <div class="reasons__slider-icon">
+                                        <img src="assets/reasons/slider/1.svg" alt="">
+                                    </div>
+                                    <p>172880.94790000 BCH</p>
+                                </div>
+                            </div>
+                            <div class="reasons__slider-slide swiper-slide">
+                                <p class="reasons__slider-name">USDT ERC20</p>
+                                <div class="reasons__slider-block">
+                                    <div class="reasons__slider-icon">
+                                        <img src="assets/reasons/slider/2.svg" alt="">
+                                    </div>
+                                    <p>1000000.00098600 USDT</p>
+                                </div>
+                            </div>
+                            <div class="reasons__slider-slide swiper-slide">
+                                <p class="reasons__slider-name">BTC Bitcoin</p>
+                                <div class="reasons__slider-block">
+                                    <div class="reasons__slider-icon">
+                                        <img src="assets/reasons/slider/3.svg" alt="">
+                                    </div>
+                                    <p>544.13271000 BTC</p>
+                                </div>
+                            </div>
+                            <div class="reasons__slider-slide swiper-slide">
+                                <p class="reasons__slider-name">BTC Bitcoin</p>
+                                <div class="reasons__slider-block">
+                                    <div class="reasons__slider-icon">
+                                        <img src="assets/reasons/slider/3.svg" alt="">
+                                    </div>
+                                    <p>544.13271000 BTC</p>
+                                </div>
+                            </div>
+                            <div class="reasons__slider-slide swiper-slide">
+                                <p class="reasons__slider-name">BTC Bitcoin</p>
+                                <div class="reasons__slider-block">
+                                    <div class="reasons__slider-icon">
+                                        <img src="assets/reasons/slider/3.svg" alt="">
+                                    </div>
+                                    <p>544.13271000 BTC</p>
+                                </div>
+                            </div>
+                            <div class="reasons__slider-slide swiper-slide">
+                                <p class="reasons__slider-name">USDT TRC20</p>
+                                <div class="reasons__slider-block">
+                                    <div class="reasons__slider-icon">
+                                        <img src="assets/reasons/slider/2.svg" alt="">
+                                    </div>
+                                    <p>1000000.00098600 USDT</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </section>
+    
+        <section class="manual">
+            <div class="_container wrap-1">
+                <h2 class="manual__title-top h2 wow fadeInUp"><span>Your Crypto Anywhere </span> with unlimited access</h2>
+                <div class="manual__wrapper">
+                    <img class="manual-bg-item" src="./assets/bg-items/bg-item-7.svg" alt="">
+                    <div class="manual__main">
+                        <div class="manual-bg">
+                            <div class="manual-bg__wrapper">
+                                <img src="./assets/manual/manual-bg.png" alt="manual-bg">
+                            </div>
+                        </div>
+    
+                        <div class="manual-icons _section-bg">
+    
+                            <svg class="manual-icons__item item-1 animation rotate" width="35" height="32"
+                                viewBox="0 0 35 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="34.1484" y="14.6318" width="1.88899" height="33.1775"
+                                    transform="rotate(90 34.1484 14.6318)" fill="black" />
+                                <rect x="18.5625" y="31.1611" width="2.01079" height="31.168"
+                                    transform="rotate(-180 18.5625 31.1611)" fill="black" />
+                            </svg>
+                            <svg class="manual-icons__item item-2 animation pulse" width="28" height="28"
+                                viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14 27.1948V0.374511" stroke="black" stroke-width="3" />
+                                <path d="M23.4844 23.0601L4.51955 4.09523" stroke="black" stroke-width="3" />
+                                <path d="M27.4141 13.7847L0.593749 13.7847" stroke="black" stroke-width="3" />
+                                <path d="M23.4844 4.09521L4.51955 23.06" stroke="black" stroke-width="3" />
+                            </svg>
+                            <svg class="manual-icons__item item-3 animation" width="33" height="40" viewBox="0 0 33 40"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M13.0316 20.23H13.0016V39.76H3.34156V20.23H0.351562V12.23H3.34156V11.98C3.34156 8.45004 4.37156 5.75004 6.43156 3.89004C8.52156 1.99004 11.5216 1.04004 15.4116 1.04004C16.1916 1.04004 16.8016 1.06004 17.2316 1.09004V9.28004C16.9716 9.25004 16.6116 9.23004 16.1516 9.23004C15.1016 9.23004 14.3316 9.48004 13.8416 9.97004C13.3516 10.43 13.0716 11.13 13.0116 12.17H13.0416H32.8016V12.23H32.8416V39.75H23.2216V20.21H13.0416V20.22L13.0316 20.23Z"
+                                    fill="white" />
+                                <path class="bounce"
+                                    d="M28.0131 10.2499C30.6696 10.2499 32.8231 8.09637 32.8231 5.43988C32.8231 2.78339 30.6696 0.629883 28.0131 0.629883C25.3566 0.629883 23.2031 2.78339 23.2031 5.43988C23.2031 8.09637 25.3566 10.2499 28.0131 10.2499Z"
+                                    fill="white" />
+                            </svg>
+                            <svg class="manual-icons__item item-4 animation" width="37" height="34" viewBox="0 0 37 34"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M36.0181 1.2038L35.7627 0.904812C31.5399 4.29356 29.1035 6.17116 26.4177 7.82809C23.6776 9.51909 21.5928 10.2049 19.6577 10.0524C17.7227 9.89982 14.3605 8.78494 11.9176 6.68537C9.52295 4.62794 10.0069 5.43273 6.36405 1.42394L6.06519 1.67923C9.45549 5.90374 8.73621 5.3 10.3942 7.98672C12.0862 10.7277 13.4223 13.5733 13.2706 15.5084C13.1189 17.4435 10.5951 20.6946 8.49665 23.1368C6.44005 25.5303 4.96546 26.9942 0.958473 30.6356L1.21387 30.9346C5.43668 27.5459 7.11271 26.3178 9.79856 24.6608C12.5387 22.9698 16.1442 20.985 18.0792 21.1375C20.0143 21.2901 22.6161 23.0545 25.059 25.1541C27.4533 27.2118 29.5678 29.4481 33.2106 33.4569L33.5095 33.2016C30.1192 28.9771 28.2404 26.5394 26.5824 23.8527C24.8904 21.1117 24.3146 17.6166 24.4663 15.6815C24.618 13.7464 25.6212 11.7944 27.7196 9.35217C29.7759 6.95823 32.0111 4.84518 36.0181 1.2038Z"
+                                    fill="black" />
+                            </svg>
+    
+                        </div>
+    
+                        <h2 class="manual__title wow fadeInUp"><span>Handle Your Crypto</span></h2>
+                        <div class="manual-box wow fadeInUp">
+                            <div class="manual-box__content">
+                                <p class="manual-box__descr">
+                                    Review the wallet's UI, get inspired and educated with Wallet videos.
+                                </p>
+                                <button class="btn shake shake-on-scroll open-popup__order">Get started</button>
+                            </div>                        
+                        </div>
+                        <div class="manual-image">
+                            <div class="manual-image__wrapper wow zoomIn">
+                                <img src="/assets/manual/manual-3.png" alt="manual">
+                            </div>
+                            <button class="btn manual-image__btn btn-blue shake shake-on-scroll open-popup__order wow zoomIn">Watch manual</button>
+                        </div>
+                    </div>
+    
+    
+                </div>
+                <img class="manual__bg" src="./assets/bg-items/bg-item-3.svg" alt="manual-bg">
+            </div>
+        </section>
+    
+        <section id="sectors" class="sectors">
+    
+            <div class="_container wrap-1">
+                <div class="sectors__wrapper">
+                    <h2 class="sectors__title h2 wow fadeInUp"><span>Safe, Accessiable, <br>user-friendly</span> and equipped with a variety of features.</h2>
+    
+                    <div class="sectors__list">
+    
+                        <div class="sectors-item wow fadeInUp">
+                            <h3 class="sectors-item__title">quick registration</h3>
+    
+                            <p class="sectors-item__text">To create a wallet, simply provide an email and remember your seed phrase. The wallet is non-custodial, and we do not store any client information for recovery.</p>
+    
+                            <!-- <div class="sectors-item__image">
+                                <img src="./assets/sectors/sectors-1.png" alt="sector">
+                            </div> -->
+                        </div>
+    
+                        <div class="sectors-item wow fadeInUp">
+                            <h3 class="sectors-item__title">buy and sell</h3>
+    
+                            <p class="sectors-item__text">Buy and sell cryptocurrency instantly from the convenience of your mobile crypto wallet app—without limitations.</p>
+    
+                            <!-- <div class="sectors-item__image">
+                                <img src="./assets/sectors/sectors-1.png" alt="sector">
+                            </div> -->
+                        </div>
+    
+                        <div class="sectors-item wow fadeInUp">
+                            <h3 class="sectors-item__title">top up with FIAT <span></span></h3>
+    
+                            <p class="sectors-item__text">Choose any cryptocurrency and buy it with your bank card.</p>
+    
+                            <!-- <div class="sectors-item__image">
+                                <img src="./assets/sectors/sectors-1.png" alt="sector">
+                            </div> -->
+                        </div>
+    
+                        <div class="sectors-item wow fadeInUp">
+                            <h3 class="sectors-item__title">crypto card</h3>
+    
+                            <p class="sectors-item__text">A crypto card linked to your wallet will be available after successful personal KYC verification through our service providers.</p>
+    
+                            <!-- <div class="sectors-item__image">
+                                <img src="./assets/sectors/sectors-1.png" alt="sector">
+                            </div> -->
+                        </div>
+    
+                        <div class="sectors-item wow fadeInUp">
+                            <h3 class="sectors-item__title">50+ tokens</h3>
+    
+                            <p class="sectors-item__text">Manage all popular assets in one wallet. Our team is continually working to add new assets and chains to enhance your experience.</p>
+    
+                            <!-- <div class="sectors-item__image">
+                                <img src="./assets/sectors/sectors-1.png" alt="sector">
+                            </div> -->
+                        </div>
+    
+                        <div class="sectors-item wow fadeInUp">
+                            <h3 class="sectors-item__title">Stake</h3>
+    
+                            <p class="sectors-item__text">Users can leverage our third-party service providers to stake their assets and earn passive income. Auto-balance staking options are also available.</p>
+    
+                            <!-- <div class="sectors-item__image">
+                                <img src="./assets/sectors/sectors-1.png" alt="sector">
+                            </div> -->
+                        </div>
+    
+                        <div class="sectors-item wow fadeInUp">
+                            <h3 class="sectors-item__title">AML CHECK</h3>
+    
+                            <p class="sectors-item__text">AML service will notify you in case you will receive any suspicious transaction. Be carefull when providing information to any third party.  </p>
+    
+                            <!-- <div class="sectors-item__image">
+                                <img src="./assets/sectors/sectors-1.png" alt="sector">
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="morecool" class="morecool">
+            <div class="_container wrap-1">
+                <div class="morecool__wrapper">
+                    <h2 class="morecool__title h2 wow fadeInUp">More <span>cool <br>perks</span> are on the way</h2>
+                    <button class="morecool__btn btn btn-white shake shake-on-scroll open-popup__order wow fadeInUp">Try it for yourself</button>
+                </div>
+            </div>
+        </section>
+    
+        
+    
+        <section id="business" class="business _bg _blue">
+            <div class="_container wrap-1">
+                <div class="business__wrapper">
+    
+                    <div class="business-payments">
+                        <div class="business-payments-bg _section-bg">
+                            <img class="bg-item" src="./assets/bg-items/bg-item-5.svg" alt="">
+                            <img class="bg-item" src="./assets/bg-items/bg-item-6.svg" alt="">
+                            <img class="bg-item" src="./assets/bg-items/bg-item-7.svg" alt="">
+                            <img class="bg-item" src="./assets/bg-items/bg-item-8.svg" alt="">
+                            <img class="bg-item" src="./assets/bg-items/bg-item-11.svg" alt="">
+                            <img class="bg-item" src="./assets/bg-items/bg-item-12.svg" alt="">
+                            <img class="bg-item" src="./assets/bg-items/bg-item-13.svg" alt="">
+                            <img class="bg-item" src="./assets/bg-items/bg-item-1.svg" alt="">
+    
+                            <svg class="bg-item animation" width="33" height="40" viewBox="0 0 33 40" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M13.0159 19.6002H12.9859V39.1302H3.32594V19.6002H0.335938V11.6002H3.32594V11.3502C3.32594 7.82016 4.35594 5.12016 6.41594 3.26016C8.50594 1.36016 11.5059 0.410156 15.3959 0.410156C16.1759 0.410156 16.7859 0.430156 17.2159 0.460156V8.65016C16.9559 8.62016 16.5959 8.60016 16.1359 8.60016C15.0859 8.60016 14.3159 8.85016 13.8259 9.34016C13.3359 9.80016 13.0559 10.5002 12.9959 11.5402H13.0259H32.7859V11.6002H32.8259V39.1202H23.2059V19.5802H13.0259V19.5902L13.0159 19.6002Z"
+                                    fill="#CCE0EC" />
+                                <path class="bounce"
+                                    d="M27.9975 9.62C30.654 9.62 32.8075 7.46649 32.8075 4.81C32.8075 2.15351 30.654 0 27.9975 0C25.341 0 23.1875 2.15351 23.1875 4.81C23.1875 7.46649 25.341 9.62 27.9975 9.62Z"
+                                    fill="#CCE0EC" />
+                            </svg>
+                        </div>
+    
+    
+                        <div class="business-payments-text">
+                            <div class="business-payments-text__title wow fadeInUp">INDIVIDUALS</div>
+                            <div class="business-payments-text__text">
+                                <p class="wow fadeInUp">Professionals in various fields such as marketing, accounting, coaching,  customer service, or software development could benefit from using crypto. Enable yourself to receive, hold, exchange, convert, withdraw and use crypto card in your every day life.</p>
+                            </div>
+                            <div class="business-payments-text__buttons">
+                                <button class="btn btn-white shake shake-on-scroll open-popup__order">Get started</button>
+                                <!-- <a href="#" class="business-payments-text__link shake shake-on-scroll" target="_blank"
+                                    rel="nofollow">Sign Up</a> -->
+                            </div>
+                        </div>
+    
+                        <h2 class="business-payments__title h2 wow fadeInRight"><span>Expand your freedom</span> use DEFFIO</h2>
+                    </div>
+    
+                    <div id="business-individual" class="business-individual">
+                        <div class="business-individual-bg _section-bg">
+                            <div class="business-individual-bg__wave bg-item">
+                                <img src="./assets/bg-items/bg-item-14.svg" alt="">
+                            </div>
+    
+                            <img src="./assets/bg-items/bg-item-15.svg" alt="">
+                            <img src="./assets/bg-items/bg-item-3.svg" alt="">
+                            <img src="./assets/bg-items/bg-item-1.svg" alt="">
+                        </div>
+    
+                        <div class="business-individual__box">
+                            <h2 class="business-individual__title h2 animated-title">
+                                <span>The</span>
+                                <span>world</span>
+                                <span>is</span><br />
+                                <span>changing</span>
+                                <span>so</span><br />
+                                <span>fast</span>
+                            </h2>
+                            <div class="business-individual__subtitle">Run faster to <br />stay ahead</div>
+                        </div>
+    
+    
+                        <div class="business-individual-text">
+                            <div class="business-individual-text__title wow fadeInUp">BUSINESS</div>
+                            <div class="business-individual-text__text">
+                                <p class="wow fadeInUp">Add alternative payment method to your customers</p>
+                                <p>&nbsp;</p>
+                                <p class="wow fadeInUp">Demonstrates a company's commitment to innovation and technological
+                                    trends</p>
+                                <p>&nbsp;</p>
+                                <p class="wow fadeInUp">Decrease your overall transaction fees</p>
+                                <p>&nbsp;</p>
+                                <p class="wow fadeInUp">Stay compliant with applicable laws and regulations</p>
+                            </div>
+                            <div class="business-individual-text__buttons">
+                                <!-- <a href="#" class="business-individual-text__link shake shake-on-scroll" target="_blank"
+                                    rel="nofollow">Sign Up</a> -->
+                                <button class="btn btn-white shake shake-on-scroll open-popup__order">Register</button>
+                                <a class="link" href="#">Contact sales</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="business-sectors">
+                        <div class="business-sectors-bg _section-bg">
+                            <img src="./assets/bg-items/bg-item-1.svg" alt="">
+                            <img src="./assets/bg-items/bg-item-16.svg" alt="">
+                            <img src="./assets/bg-items/bg-item-1.svg" alt="">
+                            <img src="./assets/bg-items/bg-item-11.svg" alt="">
+                            <img src="./assets/bg-items/bg-item-17.svg" alt="">
+                            <img src="./assets/bg-items/bg-item-11.svg" alt="">
+                            <img src="./assets/bg-items/bg-item-10.svg" alt="">
+                        </div>
+    
+                        <div class="business-sectors__title wow fadeInUp">Business Sectors Embracing Cryptocurrency</div>
+    
+                        <div class="business-sectors__list">
+                            <div class="business-sectors-item wow zoomIn">
+                                <h3 class="business-sectors-item__title">institutions have begun accepting cryptocurrency
+                                </h3>
+                                <p class="business-sectors-item__text">Elimination of intermediaries results in lower
+                                    transaction and conversion fees.
+                                    Charged fees is several times smaller than what traditional means of payment charge,
+                                    especially for international transactions.</p>
+                            </div>
+                            <div class="business-sectors-item wow zoomIn">
+                                <h3 class="business-sectors-item__title">institutions have begun accepting cryptocurrency
+                                </h3>
+                                <p class="business-sectors-item__text">Elimination of intermediaries results in lower
+                                    transaction and conversion fees.
+                                    Charged fees is several times smaller than what traditional means of payment charge,
+                                    especially for international transactions.</p>
+                            </div>
+                            <div class="business-sectors-item wow zoomIn">
+                                <h3 class="business-sectors-item__title">institutions have begun accepting cryptocurrency
+                                </h3>
+                                <p class="business-sectors-item__text">Elimination of intermediaries results in lower
+                                    transaction and conversion fees.
+                                    Charged fees is several times smaller than what traditional means of payment charge,
+                                    especially for international transactions.</p>
+                            </div>
+                            <div class="business-sectors-item wow zoomIn">
+                                <h3 class="business-sectors-item__title">institutions have begun accepting cryptocurrency
+                                </h3>
+                                <p class="business-sectors-item__text">Elimination of intermediaries results in lower
+                                    transaction and conversion fees.
+                                    Charged fees is several times smaller than what traditional means of payment charge,
+                                    especially for international transactions.</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </section>
+    
+        <section id="downloadwallet" class="downloadwallet">
+            <div class="_container wrap-1">
+                <div class="downloadwallet__wrapper">
+                    <div class="downloadwallet-bg">
+                        <div class="bg-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="29" viewBox="0 0 24 29" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.77227 14.7064H9.75092V28.6432H2.87301V14.7064H0.744141V8.9975H2.87301V8.8191C2.87301 6.30006 3.60637 4.37331 5.07309 3.046C6.56117 1.69014 8.69716 1.01221 11.4668 1.01221C12.0222 1.01221 12.4565 1.02648 12.7627 1.04789V6.89235C12.5775 6.87094 12.3212 6.85667 11.9937 6.85667C11.2461 6.85667 10.6979 7.03508 10.349 7.38474C10.0001 7.71301 9.80075 8.21253 9.75803 8.95469H9.77939H23.8485V8.9975H23.877V28.636H17.0275V14.6921H9.77939V14.6992L9.77227 14.7064Z" fill="white"/>
+                                <path d="M20.4423 7.58465C22.3337 7.58465 23.867 6.04789 23.867 4.15219C23.867 2.25649 22.3337 0.719727 20.4423 0.719727C18.5509 0.719727 17.0176 2.25649 17.0176 4.15219C17.0176 6.04789 18.5509 7.58465 20.4423 7.58465Z" fill="white"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="170" height="170" viewBox="0 0 170 170" fill="none">
+                                <path d="M142.374 168.313L140.932 169.283C127 149.803 116.407 135.219 106.953 124.954C97.3087 114.478 89.2563 109.07 80.8439 107.414C72.4314 105.758 62.933 107.711 50.0448 113.75C37.4121 119.668 22.0926 129.15 1.82993 141.899L0.862297 140.454C20.3073 126.485 34.8649 115.865 45.1123 106.387C55.5693 96.7177 60.9698 88.6462 62.6257 80.2154C64.2817 71.7847 62.3359 62.267 56.3144 49.3541C50.4128 36.6985 40.9577 21.3492 28.2438 1.04895L29.6857 0.0787121C43.6181 19.5591 54.2105 34.1431 63.6647 44.4084C73.3092 54.8835 81.3615 60.2922 89.774 61.9483C98.1864 63.6044 107.685 61.6509 120.573 55.6116C133.204 49.6926 148.525 40.2115 168.788 27.4629L169.756 28.9075C150.311 42.8768 135.753 53.4973 125.506 62.9754C115.049 72.6442 109.648 80.7157 107.992 89.1465C106.336 97.5773 108.282 107.095 114.303 120.008C120.203 132.665 129.66 148.013 142.374 168.313ZM21.4409 127.658C32.1765 121.126 41.2726 115.941 49.3128 112.173C62.5556 105.969 72.3845 103.974 81.1824 105.706C89.9804 107.438 98.3217 113.008 108.233 123.773C114.25 130.308 120.709 138.554 128.173 148.67C121.659 137.914 116.488 128.801 112.732 120.746C106.546 107.477 104.559 97.6286 106.29 88.8114C108.022 79.9943 113.584 71.6333 124.33 61.6968C130.854 55.6649 139.085 49.1885 149.183 41.7049C138.447 48.2369 129.351 53.4222 121.311 57.1897C108.068 63.3943 98.2394 65.3894 89.4414 63.6574C80.6434 61.9254 72.3022 56.3548 62.3908 45.5904C56.3741 39.0556 49.9145 30.8095 42.4506 20.6931C48.9647 31.4487 54.1355 40.5619 57.8919 48.6175C64.0783 61.8858 66.0653 71.7345 64.3335 80.5517C62.6017 89.3688 57.0395 97.7298 46.2938 107.666C39.7703 113.698 31.539 120.175 21.4409 127.658Z" fill="white"/>
+                            </svg>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="44" height="45" viewBox="0 0 44 45" fill="none">
+                            <rect x="43.9473" y="21.1499" width="2.65161" height="43.751" transform="rotate(90 43.9473 21.1499)" fill="white"/>
+                            <rect x="23.3984" y="44.3506" width="2.65161" height="43.751" transform="rotate(-180 23.3984 44.3506)" fill="white"/>
                         </svg>
-                        <svg class="manual-icons__item item-2 animation pulse" width="28" height="28"
-                            viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M14 27.1948V0.374511" stroke="black" stroke-width="3" />
-                            <path d="M23.4844 23.0601L4.51955 4.09523" stroke="black" stroke-width="3" />
-                            <path d="M27.4141 13.7847L0.593749 13.7847" stroke="black" stroke-width="3" />
-                            <path d="M23.4844 4.09521L4.51955 23.06" stroke="black" stroke-width="3" />
+                        <svg xmlns="http://www.w3.org/2000/svg" width="44" height="45" viewBox="0 0 44 45" fill="none">
+                            <rect x="43.9473" y="21.1499" width="2.65161" height="43.751" transform="rotate(90 43.9473 21.1499)" fill="white"/>
+                            <rect x="23.3984" y="44.3506" width="2.65161" height="43.751" transform="rotate(-180 23.3984 44.3506)" fill="white"/>
                         </svg>
-                        <svg class="manual-icons__item item-3 animation" width="33" height="40" viewBox="0 0 33 40"
-                            fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M13.0316 20.23H13.0016V39.76H3.34156V20.23H0.351562V12.23H3.34156V11.98C3.34156 8.45004 4.37156 5.75004 6.43156 3.89004C8.52156 1.99004 11.5216 1.04004 15.4116 1.04004C16.1916 1.04004 16.8016 1.06004 17.2316 1.09004V9.28004C16.9716 9.25004 16.6116 9.23004 16.1516 9.23004C15.1016 9.23004 14.3316 9.48004 13.8416 9.97004C13.3516 10.43 13.0716 11.13 13.0116 12.17H13.0416H32.8016V12.23H32.8416V39.75H23.2216V20.21H13.0416V20.22L13.0316 20.23Z"
-                                fill="white" />
-                            <path class="bounce"
-                                d="M28.0131 10.2499C30.6696 10.2499 32.8231 8.09637 32.8231 5.43988C32.8231 2.78339 30.6696 0.629883 28.0131 0.629883C25.3566 0.629883 23.2031 2.78339 23.2031 5.43988C23.2031 8.09637 25.3566 10.2499 28.0131 10.2499Z"
-                                fill="white" />
-                        </svg>
-                        <svg class="manual-icons__item item-4 animation" width="37" height="34" viewBox="0 0 37 34"
-                            fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M36.0181 1.2038L35.7627 0.904812C31.5399 4.29356 29.1035 6.17116 26.4177 7.82809C23.6776 9.51909 21.5928 10.2049 19.6577 10.0524C17.7227 9.89982 14.3605 8.78494 11.9176 6.68537C9.52295 4.62794 10.0069 5.43273 6.36405 1.42394L6.06519 1.67923C9.45549 5.90374 8.73621 5.3 10.3942 7.98672C12.0862 10.7277 13.4223 13.5733 13.2706 15.5084C13.1189 17.4435 10.5951 20.6946 8.49665 23.1368C6.44005 25.5303 4.96546 26.9942 0.958473 30.6356L1.21387 30.9346C5.43668 27.5459 7.11271 26.3178 9.79856 24.6608C12.5387 22.9698 16.1442 20.985 18.0792 21.1375C20.0143 21.2901 22.6161 23.0545 25.059 25.1541C27.4533 27.2118 29.5678 29.4481 33.2106 33.4569L33.5095 33.2016C30.1192 28.9771 28.2404 26.5394 26.5824 23.8527C24.8904 21.1117 24.3146 17.6166 24.4663 15.6815C24.618 13.7464 25.6212 11.7944 27.7196 9.35217C29.7759 6.95823 32.0111 4.84518 36.0181 1.2038Z"
-                                fill="black" />
-                        </svg>
-
                     </div>
-
-                    <h2 class="manual__title wow fadeInUp"><span>Handle Your Crypto</span></h2>
-                    <div class="manual__subtitle wow fadeInUp">payments on-the-go</div>
-
-                    <div class="manual-image wow zoomIn">
-                        <div class="manual-image__wrapper">
-                            <img src="/assets/manual/manual-1-1.png" alt="manual">
-                        </div>
+                    <div class="downloadwallet__image">
+                        <img src="assets/downloadwallet.png" alt="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="765" height="772" viewBox="0 0 765 772" fill="none">
+                            <path d="M206.751 737.515L274.477 493.345L33.198 569.326L231.23 411.726L-8.59101 331.085L244.112 320.254L97.3506 113.786L308.196 253.858L310.557 0.428402L399.017 237.898L549.593 34.3034L481.867 278.473L723.15 202.485L525.118 360.085L764.939 440.725L512.236 451.556L658.997 658.025L448.151 517.952L445.791 771.382L357.331 533.912L206.755 737.507L206.751 737.515ZM285.113 482.327L224.336 701.446L359.464 518.74L438.847 731.852L440.963 504.414L630.179 630.117L498.476 444.828L725.255 435.105L510.036 362.736L687.759 221.302L471.231 289.492L532.008 70.3721L396.88 253.078L317.497 39.967L315.381 267.405L126.165 141.702L257.868 326.991L31.0889 336.714L246.308 409.082L68.5848 550.517L285.113 482.327Z" fill="white" fill-opacity="0.6"/>
+                        </svg>
                     </div>
-                    <div class="manual-phone wow zoomIn">
-                        <div class="manual-phone__wrapper">
-                            <img src="/assets/manual/manual-2.png" alt="manual phone">
+                    <div class="downloadwallet__content">
+                        <h2 class="downloadwallet__title h2 wow fadeInRight">DOWLOAD <span>DEFFIO WALLET</span></h2>
+                        <p class="downloadwallet__descr wow fadeInUp">fast and secure wallet for your crypto assets</p>
+                        <div class="downloadwallet__buttons wow fadeInUp">
+                            <button class="downloadwallet__button btn btn-white open-popup__order">
+                                <div class="downloadwallet-icon">
+                                    <img src="assets/google-play.svg" alt="goog">
+                                </div>
+                                <span class="downloadwallet__button-content">
+                                    <span class="downloadwallet__button-name">get it on</span>
+                                    <span class="downloadwallet__button-descr">Google Play</span>
+                                </span>
+                            </button>
+                            <button class="downloadwallet__button btn btn-white open-popup__order">
+                                <div class="downloadwallet-icon">
+                                    <img src="assets/apple.svg" alt="goog">
+                                </div>
+                                <span class="downloadwallet__button-content">
+                                    <span class="downloadwallet__button-name">Download on the</span>
+                                    <span class="downloadwallet__button-descr">App Store</span>
+                                </span>
+                            </button>
                         </div>
                     </div>
                 </div>
-
-                <button class="manual__button btn btn-yellow shake shake-on-scroll open-popup__order">Contact
-                    sales</button>
-
-
             </div>
-            <img class="manual__bg" src="./assets/bg-items/bg-item-3.svg" alt="manual-bg">
-        </div>
-    </section>
-
-    <section id="business" class="business _bg _blue">
-        <div class="_container wrap-1">
-            <div class="business__wrapper">
-
-                <div class="business-payments">
-                    <div class="business-payments-bg _section-bg">
-                        <img class="bg-item" src="./assets/bg-items/bg-item-5.svg" alt="">
-                        <img class="bg-item" src="./assets/bg-items/bg-item-6.svg" alt="">
-                        <img class="bg-item" src="./assets/bg-items/bg-item-7.svg" alt="">
-                        <img class="bg-item" src="./assets/bg-items/bg-item-8.svg" alt="">
-                        <img class="bg-item" src="./assets/bg-items/bg-item-11.svg" alt="">
-                        <img class="bg-item" src="./assets/bg-items/bg-item-12.svg" alt="">
-                        <img class="bg-item" src="./assets/bg-items/bg-item-13.svg" alt="">
-                        <img class="bg-item" src="./assets/bg-items/bg-item-1.svg" alt="">
-
-                        <svg class="bg-item animation" width="33" height="40" viewBox="0 0 33 40" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M13.0159 19.6002H12.9859V39.1302H3.32594V19.6002H0.335938V11.6002H3.32594V11.3502C3.32594 7.82016 4.35594 5.12016 6.41594 3.26016C8.50594 1.36016 11.5059 0.410156 15.3959 0.410156C16.1759 0.410156 16.7859 0.430156 17.2159 0.460156V8.65016C16.9559 8.62016 16.5959 8.60016 16.1359 8.60016C15.0859 8.60016 14.3159 8.85016 13.8259 9.34016C13.3359 9.80016 13.0559 10.5002 12.9959 11.5402H13.0259H32.7859V11.6002H32.8259V39.1202H23.2059V19.5802H13.0259V19.5902L13.0159 19.6002Z"
-                                fill="#CCE0EC" />
-                            <path class="bounce"
-                                d="M27.9975 9.62C30.654 9.62 32.8075 7.46649 32.8075 4.81C32.8075 2.15351 30.654 0 27.9975 0C25.341 0 23.1875 2.15351 23.1875 4.81C23.1875 7.46649 25.341 9.62 27.9975 9.62Z"
-                                fill="#CCE0EC" />
-                        </svg>
-                    </div>
-
-
-                    <div class="business-payments-text">
-                        <div class="business-payments-text__title wow fadeInUp">BUSINESS</div>
-                        <div class="business-payments-text__text">
-                            <p class="wow fadeInUp">Add alternative payment method to your customers</p>
-                            <p>&nbsp;</p>
-                            <p class="wow fadeInUp">Demonstrates a company's commitment to innovation and technological
-                                trends</p>
-                            <p>&nbsp;</p>
-                            <p class="wow fadeInUp">Decrease your overall transaction fees</p>
-                            <p>&nbsp;</p>
-                            <p class="wow fadeInUp">Stay compliant with applicable laws and regulations</p>
-                        </div>
-                        <div class="business-payments-text__buttons">
-                            <button class="btn btn-white shake shake-on-scroll open-popup__order">Get started</button>
-                            <!-- <a href="#" class="business-payments-text__link shake shake-on-scroll" target="_blank"
-                                rel="nofollow">Sign Up</a> -->
-                        </div>
-                    </div>
-
-                    <h2 class="business-payments__title h2 wow fadeInRight"><span>Expand your business</span> with
-                        crypto payments</h2>
-                </div>
-
-                <div id="business-individual" class="business-individual">
-                    <div class="business-individual-bg _section-bg">
-                        <div class="business-individual-bg__wave bg-item">
-                            <img src="./assets/bg-items/bg-item-14.svg" alt="">
-                        </div>
-
+        </section>
+    
+        <section id="tools" class="tools _bg _blue">
+            <div class="_container wrap-1">
+                <div class="tools__wrapper">
+                    <h2 class="tools__title h2 wow fadeInRight">introduce a new way to <span>monetize your connections</span></h2>
+                    <div class="tools-bg _section-bg">
+                        <img src="./assets/bg-items/bg-item-1.svg" alt="">
                         <img src="./assets/bg-items/bg-item-15.svg" alt="">
-                        <img src="./assets/bg-items/bg-item-3.svg" alt="">
-                        <img src="./assets/bg-items/bg-item-1.svg" alt="">
-                    </div>
-
-                    <div class="business-individual__box">
-                        <h2 class="business-individual__title h2 animated-title">
-                            <span>The</span>
-                            <span>world</span>
-                            <span>is</span><br />
-                            <span>changing</span>
-                            <span>so</span><br />
-                            <span>fast</span>
-                        </h2>
-                        <div class="business-individual__subtitle">Run faster to <br />stay ahead</div>
-                    </div>
-
-
-                    <div class="business-individual-text">
-                        <div class="business-individual-text__title wow fadeInUp">INDIVIDUALS</div>
-                        <div class="business-individual-text__text">
-                            <p class="wow fadeInUp">Professionals in various fields such as marketing, accounting,
-                                coaching, customer
-                                service, or software development could benefit from crypto payments by enabling them to
-                                receive and convert funds quickly.</p>
-                            <p>&nbsp;</p>
-                            <p class="wow fadeInUp">Enhance your reputation and attract tech-savvy customers.</p>
-                        </div>
-                        <div class="business-individual-text__buttons">
-                            <!-- <a href="#" class="business-individual-text__link shake shake-on-scroll" target="_blank"
-                                rel="nofollow">Sign Up</a> -->
-                            <button class="btn btn-white shake shake-on-scroll open-popup__order">Get started</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="business-sectors">
-                    <div class="business-sectors-bg _section-bg">
-                        <img src="./assets/bg-items/bg-item-1.svg" alt="">
                         <img src="./assets/bg-items/bg-item-16.svg" alt="">
-                        <img src="./assets/bg-items/bg-item-1.svg" alt="">
-                        <img src="./assets/bg-items/bg-item-11.svg" alt="">
                         <img src="./assets/bg-items/bg-item-17.svg" alt="">
-                        <img src="./assets/bg-items/bg-item-11.svg" alt="">
-                        <img src="./assets/bg-items/bg-item-10.svg" alt="">
                     </div>
-
-                    <div class="business-sectors__title wow fadeInUp">Business Sectors Embracing Cryptocurrency</div>
-
-                    <div class="business-sectors__list">
-                        <div class="business-sectors-item wow zoomIn">
-                            <h3 class="business-sectors-item__title">institutions have begun accepting cryptocurrency
-                            </h3>
-                            <p class="business-sectors-item__text">Elimination of intermediaries results in lower
-                                transaction and conversion fees.
-                                Charged fees is several times smaller than what traditional means of payment charge,
-                                especially for international transactions.</p>
+    
+                    <div class="tools__list">
+                        <div class="tools-item wow fadeInLeft">
+                            <h3 class="tools-item__title">BONUS</h3>
                         </div>
-                        <div class="business-sectors-item wow zoomIn">
-                            <h3 class="business-sectors-item__title">institutions have begun accepting cryptocurrency
-                            </h3>
-                            <p class="business-sectors-item__text">Elimination of intermediaries results in lower
-                                transaction and conversion fees.
-                                Charged fees is several times smaller than what traditional means of payment charge,
-                                especially for international transactions.</p>
+    
+                        <div class="tools-item wow fadeInLeft">
+                            <h3 class="tools-item__title">MONETIZE SOCIAL NETWORK</h3>
+    
+                            <p class="tools-item__text">Lifetime passive income with our referral program.</p>
                         </div>
-                        <div class="business-sectors-item wow zoomIn">
-                            <h3 class="business-sectors-item__title">institutions have begun accepting cryptocurrency
-                            </h3>
-                            <p class="business-sectors-item__text">Elimination of intermediaries results in lower
-                                transaction and conversion fees.
-                                Charged fees is several times smaller than what traditional means of payment charge,
-                                especially for international transactions.</p>
+    
+                        <div class="tools-item wow fadeInLeft">
+                            <h3 class="tools-item__title">TERMS</h3>
+    
+                            <p class="tools-item__text">Register to receive your personal affiliate link and start earning. </p>
                         </div>
-                        <div class="business-sectors-item wow zoomIn">
-                            <h3 class="business-sectors-item__title">institutions have begun accepting cryptocurrency
-                            </h3>
-                            <p class="business-sectors-item__text">Elimination of intermediaries results in lower
-                                transaction and conversion fees.
-                                Charged fees is several times smaller than what traditional means of payment charge,
-                                especially for international transactions.</p>
+    
+                        <div class="tools-item wow fadeInLeft">
+                            <h3 class="tools-item__title">VERIFY</h3>
+    
+                            <p class="tools-item__text">To become an affiliate member user needs to be verified and pass KYC.</p>
                         </div>
                     </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <section id="fiat" class="fiat">
-        <div class="_container wrap-1">
-            <div class="fiat__wrapper">
-                <div class="fiat-car wow zoomIn">
-                    <div class="fiat-car__wrapper">
-                        <div class="hover">
-                            <img src="./assets/fiat.png" alt="fiat">
-                            <img class="fiat-car-text" src="./assets/fiat-text.svg" alt="fiat-smoke">
-                            <img class="fiat-car-smoke-1" src="./assets/fiat-smoke.svg" alt="fiat-smoke">
-                            <img class="fiat-car-smoke-2" src="./assets/fiat-smoke.svg" alt="fiat-smoke">
-                        </div>
-                        <div class="vissible">
-                            <img src="./assets/fiat-vissible.png" alt="fiat">
-                        </div>
-
-                    </div>
-                </div>
-                <div class="fiat__header">
-                    <button class="fiat__button btn btn-yellow shake shake-on-scroll wow fadeInUp open-popup__order">Contact sales</button>
-                    <h2 class="fiat__title h2 wow fadeInRight"><span>Crypto </br>& <u
-                                class="title-trigger">Fiat</u></b></span> Transactions
-                    </h2>
-                    <div class="fiat__subtitle wow fadeInRight">Fast & Flexible Settlements</div>
-                </div>
-
-                <div class="fiat__list">
-                    <div class="fiat-item wow fadeInUp">
-                        <h3 class="fiat-item__title">Bank settlement</h3>
-
-                        <p class="fiat-item__text">Intiate bank settlement to your account via SEPA or SWIFT</p>
-                    </div>
-
-                    <div class="fiat-item wow fadeInUp">
-                        <h3 class="fiat-item__title">Convert crypto</h3>
-
-                        <p class="fiat-item__text">Convert or exchange crypto into FIAT or any other crypto</p>
-                    </div>
-
-                    <div class="fiat-item wow fadeInUp">
-                        <h3 class="fiat-item__title">Transfer</h3>
-
-                        <p class="fiat-item__text">Initiate transfer to any crypto account</p>
+                    <div class="tools__image">
+                        <img src="assets/tools-2.png" alt="">
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <section class="request">
-        <div class="request__wrapper">
-
-            <div class="request-bg _section-bg">
-                <img src="./assets/bg-items/bg-item-19.svg" alt="">
-                <img src="./assets/bg-items/bg-item-20.svg" alt="">
-                <img src="./assets/bg-items/bg-item-20.svg" alt="">
-            </div>
-
-            <div class="request-header">
-                <div class="request-image wow zoomIn">
-                    <div class="request-image__wrapper">
-                        <img src="./assets/request.png" alt="request">
-                    </div>
-                </div>
-                <div class="request-header__wrapper">
-                    <h2 class="request__title h2 wow fadeInLeft"><span>Request in crypto.</span> Get paidin <u>fiat</u>.
-                    </h2>
-                    <div class="request__subtitle wow fadeInLeft">A comprehensive set of tools enabling you to start
-                        processing
-                        payments
-                        right away.</div>
-                    <button class="request__button btn _desk shake shake-on-scroll open-popup__order">Book a
-                        call</button>
-                </div>
-            </div>
-
-            <div class="requerst__main">
-                <div class="_container wrap-1">
-                    <div class="request__list">
-                        <div class="request-item wow fadeInUp">
-                            <h3 class="request-item__title">payment link</h3>
-
-                            <p class="request-item__text">a crypto deposit similar to an invoice, which does not require
-                                an immediate settlement.</p>
-                        </div>
-
-                        <div class="request-item wow fadeInUp">
-                            <h3 class="request-item__title">invoice</h3>
-
-                            <p class="request-item__text">a payment in cryptocurrency tied to a specific fiat amount
-                                which needs to be settled in a short time</p>
-                        </div>
-
-                        <div class="request-item wow fadeInUp">
-                            <h3 class="request-item__title">deposit</h3>
-
-                            <p class="request-item__text">simple deposit in cryptocurrency not tied to a specific fiat
-                                amount or Timing.</p>
-                        </div>
-                    </div>
-
-                    <button class="request__button btn _mob shake shake-on-scroll">Book a call</button>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <section id="tools" class="tools _bg _blue">
-        <div class="_container wrap-1">
-            <div class="tools__wrapper">
-
-                <div class="tools-bg _section-bg">
-                    <img src="./assets/bg-items/bg-item-1.svg" alt="">
-                    <img src="./assets/bg-items/bg-item-15.svg" alt="">
-                    <img src="./assets/bg-items/bg-item-16.svg" alt="">
-                    <img src="./assets/bg-items/bg-item-17.svg" alt="">
-                </div>
-
-                <div class="tools__list">
-                    <div class="tools-item wow fadeInLeft">
-                        <h3 class="tools-item__title">API Integration</h3>
-
-                        <p class="tools-item__text">Email payment links to your customers for one-time or recurring
-                            payments.</p>
-                    </div>
-
-                    <div class="tools-item wow fadeInLeft">
-                        <h3 class="tools-item__title">Payment Links</h3>
-
-                        <p class="tools-item__text">Email payment links to your customers for one-time or recurring
-                            payments.</p>
-                    </div>
-
-                    <div class="tools-item wow fadeInLeft">
-                        <h3 class="tools-item__title">Shopping Cart Plugins</h3>
-
-                        <p class="tools-item__text">simple deposit in cryptocurrency not tied to a specific fiat amount
-                            or Timing.</p>
-                    </div>
-
-                    <div class="tools-item wow fadeInLeft">
-                        <h3 class="tools-item__title">Payment Buttons</h3>
-
-                        <p class="tools-item__text">a payment in cryptocurrency tied to a specific fiat amount which
-                            needs to be settled in a short time</p>
-                    </div>
-
-                    <div class="tools-item wow fadeInLeft">
-                        <h3 class="tools-item__title">point of sale</h3>
-
-                        <p class="tools-item__text">simple deposit in cryptocurrency not tied to a specific fiat amount
-                            or Timing.</p>
-                    </div>
-                </div>
-
-                <div class="tools__col">
-                    <h2 class="tools__title h2 wow fadeInRight"><span>integrate</span>a full suite of crypto tools</h2>
-
-                    <div class="tools__bottom">
-                        <div class="tools-image">
-                            <div class="tools-image__wrapper">
-                                <img src="./assets/tools.png" alt="tools">
-                            </div>
-                        </div>
-
-                        <button class="tools__button btn shake shake-on-scroll open-popup__order">Get in touch with
-                            us</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="steps _bg _orange">
-        <div class="_container">
-            <div class="steps__wrapper">
-
-                <div class="steps-bg _section-bg">
-                    <img src="./assets/bg-items/bg-item-3.svg" alt="">
-                    <img src="./assets/bg-items/bg-item-17.svg" alt="">
-                    <img src="./assets/bg-items/bg-item-21.svg" alt="">
-                </div>
-
-                <div class="steps-left">
-                    <h2 class="steps__title h2 wow fadeInLeft"><span>Ready to gain</span> a competitive
-                        <span>advantage?</span>
-                    </h2>
-                    <div class="steps__subtitle wow fadeInLeft">Learn more about technical integration or even see how
-                        Deffio gateway
-                        function.</div>
-
-                    <form class="steps-form wow fadeInLeft" action="#" method="POST">
-                        <div class="steps-form__title"><span>free</span> consultation</div>
-
-                        <input type="text" name="name" placeholder="Name" required>
-                        <input type="tel" name="phone" placeholder="Telephone" required>
-                        <input type="email" name="email" placeholder="E-mail" required>
-
-                        <select name="business" class="business-select" data-type=".steps">
-                            <option value="Gaming">Gaming</option>
-                            <option value="Travel">Travel</option>
-                            <option value="E-commerce">E-commerce</option>
-                            <option value="Tickets">Tickets</option>
-                            <option value="Coaching and training">Coaching and training</option>
-                            <option value="Booking">Booking</option>
-                            <option value="Markerplaces">Markerplaces</option>
-                            <option value="LUXURY GOODS">LUXURY GOODS</option>
-                            <option value="regulated gambling">regulated gambling</option>
-                        </select>
-
-                        <div class="custom-select">
-                            <div class="custom-select__header">
-                                <span>BUSINESS</span>
-                                <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M4.5 8.49414L12.5 16.4941L20.5 8.49414" stroke="#2B3544" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-
-                            </div>
-                            <div class="custom-select__list">
-                            </div>
-                        </div>
-
-                        <label class="steps-form__policy">
-                            <input type="checkbox" name="policy">
-                            <span>By clicking the "send" button, you agree to the Privacy Policy and consent to the
-                                processing of personal data</span>
-                        </label>
-
-                        <button class="btn shake shake-on-scroll" type="submit">Contact sales</button>
-                    </form>
-                </div>
-
-                <div class="steps-right">
-                    <div class="steps__text wow fadeInUp">Step-by-step guides</div>
-
-                    <div class="steps__list">
-
-                        <div class="steps-item wow zoomIn">
-                            <div class="steps-item__title"><span>Call &</span> Application</div>
-
-                            <div class="steps-item__text">
-                                <div class="steps-item__number">1</div>
-
-                                <p class="wow fadeInLeft">Initial call with dedicated sales
-                                    Manager with product presentation
-                                    SendBox testing</p>
-                            </div>
-                        </div>
-
-                        <div class="steps-item wow zoomIn">
-                            <div class="steps-item__title">Guidance</div>
-
-                            <div class="steps-item__text">
-                                <div class="steps-item__number">2</div>
-
-                                <p class="wow fadeInLeft">Email after call with further guidances, including list of
-                                    docuemnts for Due
-                                    Deligance, commercial offer, etc </p>
-                            </div>
-                        </div>
-
-                        <div class="steps-item wow zoomIn">
-                            <div class="steps-item__title"><span>Due</span> Deligance</div>
-
-                            <div class="steps-item__text">
-                                <div class="steps-item__number">3</div>
-
-                                <p class="wow fadeInLeft">KYC and KYB Procedure
-                                    Service agreement signed </p>
-                            </div>
-                        </div>
-
-                        <div class="steps-item wow zoomIn">
-                            <div class="steps-item__title"><span>Setup &</span> Activation</div>
-
-                            <div class="steps-item__text">
-                                <div class="steps-item__number">4</div>
-
-                                <p class="wow fadeInLeft">Accoun manager assigned Activation and Launch</p>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="steps-right-bg">
-                        <img src="./assets/bg-items/steps-bg.svg" alt="steps">
-                        <div class="steps-right-bg__mask"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <footer class="footer">
         <div class="footer__wrapper">
             <div class="footer-top">
                 <div class="_container">
                     <div class="footer-top__wrapper">
-                        <p class="footer-top__text wow fadeInUp">Sapion Solution UAB, Reg No. 306182986, Address: Kriviy g. 5, LT-01204 Vilnius, Lithuania</p>
+                        <p class="footer-top__text wow fadeInUp">Betelgeuse Corpora-on Ltd, Reg Number 14716123 <br>13 JOHN PRINCE'S STREET, 2ND FLOOR, LONDON ENGLAND W1G 0JR</p>
 
                         <div class="footer-top-socials">
                             <a href="https://www.linkedin.com/company/deffio/"
@@ -1079,7 +760,7 @@
             <div class="footer-bottom">
                 <div class="_container">
                     <div class="footer-bottom__wrapper">
-                        <p class="footer-bottom__text">Data and information on this website are provided for informational purposes only, and are not intended for reference or other purposes. All financial, statistical and other relevant data regarding the clients/merchants, conducted transactions, etc., have been provided as aggregate from the activities of all legal entities operating under the brand name DEFFIO, including but not limited to: Sapion Solution UAB, Reg No. 306182986, Address: Kriviy g. 5, LT-01204 Vilnius, Lithuania</p>
+                        <p class="footer-bottom__text">Data and information on this webpage are provided for informational purposes only, and are not intended for reference or other purposes. All financial, statistical and other relevant data regarding the clients/merchants, conducted transactions, etc., have been provided as aggregate from the activities of all legal entities operating under the brand name DEFFIO, including but not limited to: Betelgeuse Corpora-on Ltd</p>
                         <div class="footer-bottom_main">
                             <div class="footer-bottom__copyright">© 2024 Deffio. All rights reserved</div>
                             <nav class="footer-bottom-nav">
@@ -1209,7 +890,7 @@
 
     <!-- <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script> -->
     <!-- <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script> -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
     <script src="./js/script.js"></script>

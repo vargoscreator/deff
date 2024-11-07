@@ -1,6 +1,8 @@
 :root {
   --color-black--rgb: 4, 4, 4;
   --color-black: #040404;
+  --color-black-second--rgb: 31, 31, 31;
+  --color-black-second: #1F1F1F;
   --color-white--rgb: 255, 255, 255;
   --color-white: #ffffff;
   --color-grey--rgb: 43, 53, 68;

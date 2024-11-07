@@ -111,8 +111,9 @@
     //.menu__box 
     &__box {
         display: flex;
-        align-items: center;
+        align-items: start;
         justify-content: space-between;
+        flex-direction: column;
         transition: all .3s ease;
         width: 90%;
 
@@ -183,7 +184,7 @@
         >*+* {
             @include viewport-desktop {
                 @media (min-width: 1440px) {
-                    margin-left: 46px;
+                    margin-left: 24px;
                 }
 
                 @media (max-width: 1439px) {
@@ -195,15 +196,7 @@
 
 
         &+& {
-            @include viewport-desktop {
-                @media (min-width: 1440px) {
-                    margin-left: 56px;
-                }
-
-                @media (max-width: 1439px) {
-                    margin-left: 30px;
-                }
-            }
+            margin-top: 8px;
         }
     }
 
