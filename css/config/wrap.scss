@@ -1,0 +1,28 @@
+@import './viewport';
+
+:root {
+
+  @include viewport-desktop {
+    --wrap: 5vw;
+    --wrap-0: 0;
+    --wrap-1: 5vw;
+    
+    @media (min-width: 1440px) {
+      --wrap: calc((100vw - 1280px) / 2);
+      --wrap-0: calc((100vw - 1440px) / 2);
+      --wrap-1: calc((100vw - 1140px) / 2);
+    }
+  }
+
+  @include viewport-tablet {
+    --wrap: 5vw;
+    --wrap-0: 5vw;
+    --wrap-1: 5vw;
+  }
+
+  @include viewport-phone {
+    --wrap: 5vw;
+    --wrap-0: 5vw;
+    --wrap-1: 5vw;
+  }
+}
